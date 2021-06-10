@@ -1,4 +1,4 @@
-function randomNum() {
+let randomNum = () => {
 
     var rand = Math.floor(Math.random() * 10 + 1);
     var guess = prompt("Pick a number!");
